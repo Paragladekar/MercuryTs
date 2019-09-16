@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FacebookDemo]">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="password1" value="PARAG123"/>
+  <parameter name="username1" value="9527428384"/>
+  <parameter name="url" value="https://www.facebook.com"/>
+  <test name="Test(failed)">
+    <parameter name="password1" value="PARAG123"/>
+    <parameter name="username1" value="9527428384"/>
+    <parameter name="url" value="https://www.facebook.com"/>
+    <classes>
+      <class name="com.model.Facebook_Demo">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="getCookie"/>
+          <include name="applicationURL"/>
+          <include name="maximizeBrowser"/>
+          <include name="loginwithvalidds" invocation-numbers="0"/>
+          <include name="getScreenshot"/>
+        </methods>
+      </class> <!-- com.model.Facebook_Demo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [FacebookDemo] -->

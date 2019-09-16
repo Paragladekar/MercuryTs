@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FacebookDemo">
+<parameter name="browser" value="Chrome"></parameter>
+  <test name="Test">
+  <parameter name="url" value="https://www.facebook.com"></parameter>
+  <parameter name="username1" value="9527428384"></parameter>
+  <parameter name="password1" value="PARAG123"></parameter>
+    <classes>
+      <class name="com.model.Facebook_Demo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
